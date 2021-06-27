@@ -1,0 +1,640 @@
+/* Fonts */
+@font-face {
+    font-family: "questrial";
+    src: url('fonts/Questrial/Questrial-Regular.ttf');
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url('fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "poppins-title";
+    src: url('fonts/Poppins/Poppins-Light.ttf');
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#header {
+    width: 100%;
+    height: 200px;
+    background: #5A7262;
+    color: white;
+    font-weight: 100;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+
+
+
+
+.links-social ul {
+    list-style: none;
+    padding-left: 80px;
+
+}
+
+
+.links-social ul li {
+    display: inline;
+    float: left;
+    line-height: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.links-social ul li a {
+    color: white;
+
+}
+
+#header #title {
+    margin: 0px auto;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#header #title h1 {
+    letter-spacing: 5px;
+    font-family: "poppins";
+    font-size: 24px;
+}
+
+#header #title p {
+    letter-spacing: 1px;
+    font-family: "questrial";
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.nav {
+    height: 60px;
+    width: 890px;
+    margin: 0px auto;
+
+}
+
+.nav ul {
+    list-style: none;
+    margin-top: 18px;
+    margin-left: 180px;
+}
+
+.nav ul li {
+    display: inline;
+    padding-left: 60px;
+    padding-right: 60px;
+    transition: 500ms;
+
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 500ms;
+    font-family: "questrial";
+
+}
+
+.nav ul li a:hover {
+    color: #c2bbaa;
+}
+
+
+
+#header .tel {
+    float: right;
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    font-size: 17px;
+    color: white;
+    margin-right: 80px;
+    margin-top: 80px;
+    letter-spacing: 1px;
+    font-family: "questrial";
+
+}
+
+
+/* BANNER */
+
+#banner {
+    margin-top: 200px;
+    width: 100%;
+    height: 400px;
+    background: #5A7262;
+}
+
+#banner #content-info {
+    width: 1410px;
+    height: 800px;
+    background: #E9E2CF;
+    margin-left: 85px;
+    margin-right: 85px;
+
+}
+
+
+
+#banner #content-title {
+    width: 820px;
+    height: 225px;
+    margin: 0px auto;
+    margin-top: -350px;
+    margin-left: -105px;
+}
+
+#banner #content-title h1 {
+    font-size: 107px;
+
+
+    font-family: "questrial";
+    font-weight: lighter;
+    color: #2A2A2A;
+}
+
+#banner #content-title h2 {
+    font-size: 107px;
+    font-family: "questrial";
+    font-weight: lighter;
+    color: #2A2A2A;
+    margin-left: -50px;
+
+}
+
+
+
+#descripcion {
+    width: 355px;
+    height: 140px;
+    background: #ffffff;
+    margin-top: 105px;
+    font-size: 20px;
+    font-family: "questrial";
+    line-height: 140px;
+    padding-left: 25px;
+    box-shadow: 1px 1px 0px 1px #ccc;
+}
+
+
+.wave {
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+/* welcome */
+
+.welcome-content {
+    height: 500px;
+    width: 100%;
+
+}
+
+
+.welcome-content .welcome-title {
+    height: 100px;
+    width: 800px;
+
+    margin: 0px auto;
+}
+
+.welcome-content .welcome-title h2 {
+    font-size: 50px;
+    font-family: "poppins-title";
+    text-align: center;
+    color: #47584C;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.welcome-content .welcome-text {
+    height: 90px;
+    width: 725px;
+
+    margin: 0px auto;
+}
+
+.welcome-content .welcome-text p {
+    font-size: 15px;
+    font-family: "questrial";
+    text-align: center;
+    color: #47584C;
+    line-height: 25px;
+    font-weight: 100;
+
+}
+
+
+.button {
+    height: 40px;
+    margin: 0px auto;
+    width: 140px;
+    background: #5A7262;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    font-family: "questrial";
+    font-weight: 100;
+    transition: 300ms;
+    margin-bottom: 120px;
+
+}
+
+.button:hover {
+    border: 2px solid #5A7262;
+    background: white;
+
+    color: #5A7262;
+}
+
+#images {
+    margin-top: 150px;
+    width: 100%;
+    height: 600px;
+
+
+}
+
+#images #img-1 {
+    width: 600px;
+    float: left;
+    margin-left: 80px;
+
+
+}
+
+#images #img-2 {
+    width: 600px;
+    float: right;
+    margin-right: 190px;
+
+
+}
+
+
+#info-services {
+    width: 100%;
+    background: #E9E2CF;
+    height: 900px;
+}
+
+#info-services #info-title h1 {
+    padding-top: 225px;
+    text-align: center;
+    font-family: "questrial";
+    font-size: 50px;
+    font-weight: 100;
+    color: #5A7262;
+    margin-bottom: 125px;
+}
+
+#cards {
+    width: 100%;
+    height: 250px;
+
+
+}
+
+.card {
+    font-family: 'questrial';
+    float: left;
+    width: 380px;
+    height: 240px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top: 0px;
+    cursor: pointer;
+    transition: all 300ms;
+    color: #5A7262;
+    text-align: center;
+
+
+}
+
+.card .card-title {
+    width: 210px;
+    height: 50px;
+    margin: 0px auto;
+}
+
+.card .card-title h3 {
+    font-size: 17px;
+    letter-spacing: 3px;
+
+}
+
+.card .card-description {
+    width: 225px;
+    height: 65px;
+    overflow: hidden;
+    margin: 0px auto;
+
+}
+
+.card .card-description p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+.card img {
+    width: 70px;
+
+    margin-bottom: 35px;
+}
+
+#title-proyecto {
+    margin-top: 140px;
+}
+
+#proyecto-button {
+    background: white;
+    color: #5A7262;
+    border: 2px solid #5A7262;
+}
+
+#proyecto-button:hover {
+    background: #5A7262;
+    color: white;
+    border: 2px solid #5A7262;
+}
+
+#wave2 {
+
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-360deg);
+
+}
+
+#footer {
+    width: 100%;
+    height: 950px;
+    background: #E9E2CF;
+}
+
+#footer #footer-title {
+    height: 70px;
+    width: 655px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#footer #footer-title h2 {
+    font-family: "questrial";
+    color: #5A7262;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+#footer #footer-description {
+    height: 55px;
+    width: 810px;
+    margin: 0px auto;
+    margin-bottom: 75px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#footer #footer-description p {
+    font-family: "questrial";
+    color: #5A7262;
+    font-size: 17px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+#footer #footer-form {
+    height: 310px;
+    width: 980px;
+    margin: 0px auto;
+    font-family: "questrial";
+
+}
+
+#footer #footer-form #name-space {
+    float: left;
+    width: 470px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#footer #footer-form #name-space label {
+    color: #5A7262;
+    font-size: 17px;
+
+}
+
+#footer #footer-form #name-space input {
+    width: 469px;
+    height: 28px;
+    border-style: none;
+    background: #E9E2CF;
+    border-bottom: 2px solid #5A7262;
+}
+
+#footer #footer-form #apellido-space {
+    float: right;
+    width: 470px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+
+#footer #footer-form #apellido-space label {
+    color: #5A7262;
+    font-size: 17px;
+
+}
+
+#footer #footer-form #apellido-space input {
+    width: 469px;
+    height: 28px;
+    border-style: none;
+    background: #E9E2CF;
+    border-bottom: 2px solid #5A7262;
+}
+
+#footer #footer-form #email-space {
+    width: 470px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 5px;
+
+    padding-top: 70px;
+}
+
+
+#footer #footer-form #email-space label {
+    color: #5A7262;
+    font-size: 17px;
+
+}
+
+#footer #footer-form #email-space input {
+    width: 965px;
+    height: 28px;
+    border-style: none;
+    background: #E9E2CF;
+    border-bottom: 2px solid #5A7262;
+}
+
+#footer #footer-form #mensaje-space {
+    width: 470px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 5px;
+
+    padding-top: 20px;
+}
+
+
+#footer #footer-form #mensaje-space label {
+    color: #5A7262;
+    font-size: 17px;
+
+}
+
+#footer #footer-form #mensaje-space textarea {
+    width: 1000px;
+    height: 75px;
+    border-style: none;
+    background: #E9E2CF;
+    border-bottom: 2px solid #5A7262;
+    text-align: center;
+
+}
+
+#footer .nav {
+    width: 1450px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+#footer .nav ul li a {
+    color: #5A7262;
+}
+
+
+
+.slideshow-container {
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.mySlides {
+
+    width: 380px;
+    height: auto;
+    border: 1px solid #E9E2CF;
+    margin: 0px auto;
+    padding-top: 100px;
+
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.active{
+    color: #2A2A2A !important;
+}
+
+.active-acerca{
+    color: #2A2A2A !important;
+}
+
+.active-contac{
+    color: #2A2A2A !important;
+}
+
+
